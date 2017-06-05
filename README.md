@@ -1,1 +1,1 @@
-# opencv-python-dersleri
+# Opencv-python-Uygulamaları
