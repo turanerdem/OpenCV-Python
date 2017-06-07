@@ -3,8 +3,8 @@ import cv2
 img = cv2.imread('esogu-eee.jpg',0)
 cv2.imshow('image',img)
 k = cv2.waitKey(0)
-if k == 27:         # wait for ESC key to exit
+if k == 27:         # ESC tuşu ile çıkış yapar
     cv2.destroyAllWindows()
-elif k == ord('s'): # wait for 's' key to save and exit
+elif k == ord('s'): # 's' tuşu ile resmi kaydeder
     cv2.imwrite('esogu-eee.png',img)
     cv2.destroyAllWindows()
