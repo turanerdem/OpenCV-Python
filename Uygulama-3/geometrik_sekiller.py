@@ -1,13 +1,10 @@
 import numpy as np
 import cv2
 
-# Siyah bir zemin oluşturuyoruz. İlk uygulama da öğrendiğimiz cv2.imread() komutu ile görüntü üzerine de yapabiliriz aynı işlemi..
+# Siyah bir zemin oluşturuyoruz.
 
 img = np.zeros((600,730,3), np.uint8)
 
-#İlk uygulama da öğrendiğimiz cv2.imread() komutu ile görüntü üzerinde de yapabiliriz aynı işlemleri. Bir aşağıdaki komut satırından img önündeki "#" silerek aynı işlemi görüntü üzerinde yapabilirsiniz.
-
-#img = cv2.imread('esogu.jpg', cv2.IMREAD_COLOR)
 
 # 5 piksel kalınlığında diagonal mavi bir çizgi çizdiriyoruz. Çizginin özellikleri size kalmış, 8 bitlik değerleri istediğiniz gibi değiştirebilirsiniz.
 
