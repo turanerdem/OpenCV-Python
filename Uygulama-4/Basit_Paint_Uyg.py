@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+
 drawing = False # Eğer mouse'a tıklandı ise: true 
 mode = True # Eğer True ise, dikdörtgen çiz. 'm' tuşu mod değişimi için tanımlı
 ix,iy = -1,-1
